@@ -1,0 +1,20 @@
+Copyright © 2026 Fruga Limited. All rights reserved.
+
+This repository contains the Fruga Relay SDK for Apple platforms, including
+its binary framework, source code, sample apps and documentation (the "SDK").
+
+You may use the SDK, and include it in your apps, only to integrate with Fruga
+services, and only while you have an agreement with Fruga Limited that allows
+this.
+
+You may not:
+
+- distribute the SDK on its own, other than as part of your app;
+- reverse engineer the SDK, except where the law allows this;
+- remove or change this notice.
+
+Third-party software used by the SDK, including Plaid LinkKit, is covered by
+its own license.
+
+THE SDK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXCEPT AS STATED IN
+YOUR AGREEMENT WITH FRUGA LIMITED.

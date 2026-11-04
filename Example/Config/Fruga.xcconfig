@@ -1,0 +1,26 @@
+// Fruga integration settings. The apps read these through Config/Info.plist.
+// Replace the values below with the ones issued for your company.
+//
+// A literal "//" starts a comment in an xcconfig file, so every URL is written
+// with an empty "$()" after the scheme: https:/$()/example.com is https://example.com.
+
+// Partner key issued by Fruga. Placeholder: replace it with your key.
+FRUGA_PARTNER_KEY = YOUR_PARTNER_KEY
+
+// Base URL of the Fruga API the SDK talks to, issued by Fruga with your key.
+// Placeholder: replace it with the URL Fruga gives you.
+FRUGA_API_BASE_URL = https:/$()/api.example.com
+
+// Endpoint on YOUR backend that exchanges a signed-in user for a Fruga access
+// token. The partner secret stays on that server and never ships in the app.
+// Placeholder: replace it with your endpoint, or Relay cannot sign in.
+FRUGA_TOKEN_URL = https:/$()/your-backend.example.com/fruga/token
+
+// Domain used for Associated Domains (applinks). Placeholder:
+// replace it with the <partner>.link.fruga.co.uk subdomain Fruga gives you.
+// Fruga hosts its apple-app-site-association file (see README, "Associated Domains").
+FRUGA_LINK_DOMAIN = YOUR_PARTNER.link.fruga.co.uk
+
+// Bundle identifiers. Change them to ids you own before running on a device.
+FRUGA_SWIFTUI_BUNDLE_ID = com.example.fruga.swiftui
+FRUGA_UIKIT_BUNDLE_ID = com.example.fruga.uikit

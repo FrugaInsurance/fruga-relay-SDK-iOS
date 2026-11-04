@@ -1,0 +1,50 @@
+{
+  "configurations" : [
+    {
+      "id" : "00000000-0000-0000-0000-000000000001",
+      "name" : "Default",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FrugaExample.xcodeproj",
+      "identifier" : "45BA8B5663CAFFD29D44FACF",
+      "name" : "SwiftUIExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/FrugaIntegration",
+        "identifier" : "FrugaIntegrationTests",
+        "name" : "FrugaIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/FrugaExampleUI",
+        "identifier" : "FrugaExampleUITests",
+        "name" : "FrugaExampleUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:FrugaExample.xcodeproj",
+        "identifier" : "D584A3D278BEA7C09E488D12",
+        "name" : "SwiftUIExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:FrugaExample.xcodeproj",
+        "identifier" : "2FFF0962CF1B6FC3BE991870",
+        "name" : "UIKitExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
